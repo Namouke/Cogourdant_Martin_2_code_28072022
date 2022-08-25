@@ -779,12 +779,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #93441A;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c27956!important; /* MOD contraste texte */
     color: #FFFFFF!important;
 }
 
