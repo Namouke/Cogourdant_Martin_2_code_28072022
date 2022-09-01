@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important; /* MOD augmentation de la taille des Icon */
 }
 
 .icon-lg {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -1039,4 +1039,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+ /* MOD Mise en page des texte qui remplace les images */
+  
+.testimony {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.testimonyTexte1 {
+    text-align: center;
+    width: 442px;
+    height: auto;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.testimonyTexte2 {
+    font-weight: lighter;
+}
+
+/* MOD Footer */
+
+.footerPub {
+    font-size: 20px;
+    margin-top: 10px;
 }
