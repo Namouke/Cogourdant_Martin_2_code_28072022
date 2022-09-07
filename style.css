@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-min.jpg"); /* MOD minify img */
+    background-image: url("img/image-de-presentation-minify.webp"); /* MOD minify img */
 }
 
 @media (max-width: 1024px) {
