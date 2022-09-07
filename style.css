@@ -818,11 +818,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere-minify.webp"); /* MOD minify img */
+    background-image: url("img/agence-la-panthere-min-minify.webp"); /* MOD minify img */
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation-minify.webp"); /* MOD minify img */
+    background-image: url("img/image-de-presentation-min-minify.webp"); /* MOD minify img */
 }
 
 @media (max-width: 1024px) {
@@ -1055,6 +1055,12 @@ h4 {
     height: auto;
     font-style: italic;
     font-weight: normal;
+}
+
+@media (max-width: 442px) {
+    .testimonyTexte1 {
+        width: auto;
+    }
 }
 
 .testimonyTexte2 {
